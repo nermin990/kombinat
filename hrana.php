@@ -27,7 +27,7 @@
     while($row = mysqli_fetch_assoc($select_all_hrana_query)){
         $hrana_id = $row['hrana_id'];
         $hrana_title = $row['hrana_title'];
-        $hrana_image = $row['hrana_image'];
+        $hrana_image = $row['hrana_image']; 
         $hrana_content = substr($row['hrana_content'], 0, 25) . "...";
         $hrana_price = $row['hrana_price'];
         $hrana_status = $row['hrana_status'];
