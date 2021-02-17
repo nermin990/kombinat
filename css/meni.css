@@ -1,0 +1,141 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background: url(../assets/kombinat.jpg);
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75), rgba(0,0,0,0.15), rgba(0,0,0,0))
+    ,url(../assets/kombinat.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+a{
+    transition: all 0.56;
+    text-decoration: none;
+    color: wheat;
+}
+
+img{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+section{
+    padding: 40px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin: 30px 15px 0px 15px;
+}
+
+header{
+    width: 70%;
+    margin: 0 auto;
+}
+
+header h1{
+    margin: 0%;
+    font-size: 50px;
+    color: white;
+    font-weight: 500;
+}
+
+header p{
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.vrsta_pica{
+    color: white;
+    font-size: 27px;
+    font-weight: 200;
+}
+
+.card{
+    position: relative;
+    overflow: hidden;
+    max-height: 580px;
+    height: 100%;
+    box-shadow: 0 2px 20px rgb(221, 221, 221);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0 5px 10px #ccc;
+    transition: all 0.5s;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+    transition: all 0.4s;
+}
+
+.blogcontent{
+    position: absolute;
+    left: 0;
+    bottom: -45px;
+    width: 100%;
+    color: white;
+    padding:  7px 0px;
+    background: linear-gradient(45deg, rgb(77, 62, 216) 0%, rgba(144, 192, 229, 0.4) 100%);
+    transform: all 0.5s;
+}
+
+.blogcontent h3{
+    font-size: 20px;
+    font-weight: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+.blogcontent h3 span{
+    display: block;
+    font-size: 60%;
+    margin-top: 5px;
+    font-weight: 600;
+    color: rgb(52, 73, 94, 1);
+}
+
+.card:hover .blogcontent{
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+.blogcontent a{
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.blogcontent a:hover{
+    text-decoration: underline;
+}
+
+.vrsta-holder{
+    position: relative;
+    text-align: center;
+    opacity: 0.75;
+}
+
+.centar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-weight: 720;
+    color: black;
+}

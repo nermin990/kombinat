@@ -1,0 +1,29 @@
+.box{
+    width: 450px;
+    float: right;
+    border: 1px solid none;
+}
+
+.box ul li{
+    width: 100px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 22px;
+}
+
+.box ul li a{
+    text-decoration: none;
+    color: darkgray;
+    
+}
+
+.box ul li:hover{
+    color: white;
+    font-size: 25px;
+    transition: 200ms;
+}
+
+.box ul li a:hover{
+    color: white;
+}

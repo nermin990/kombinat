@@ -1,0 +1,100 @@
+body{
+    font-family: latha;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75), rgba(0,0,0,0.15), rgba(0,0,0,0))
+    ,url(../assets/kombinat.jpg)no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+    max-width: 400px;
+    margin:  50px auto 0px;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding: 8px;
+    float: none;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: none;
+    border: 1px solid #B0C4DE;
+    background-color: rgba(243, 241, 241, 0.5);
+}
+
+.login-box{
+    max-width: 400px;
+    float: none;
+    margin: 150px auto;
+    margin-top: 5px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.prijavi-se{
+    margin-bottom: 10px;
+}
+
+.login-left{
+    background-color: rgba(211, 211, 211, 0.8);
+    padding: 30px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.form-control{ 
+    background-color: transparent !important;
+}
+
+a{
+    color: #ffffff ;
+    margin-top: -200px;
+}
+
+.error{
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 7px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.kontakt-holder{
+    max-width: 700px;
+    background-color: rgba(211, 211, 211, 0.6);
+    padding: 10px;
+    float: none;
+    margin: 50px auto;
+    
+}
+
+.holedr-levi-desni{
+    display:flex;
+}
+
+.kontakt-holder-levi{
+    flex-grow: 1;
+}
+
+.kontakt-holder-desni{
+    flex-grow: 1;
+}
+
+.maps{
+    margin: 10px;
+    padding: 10px;
+}
+
+.kontakt{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
